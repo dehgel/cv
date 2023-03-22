@@ -1,5 +1,5 @@
-
-$(function(){
+// Collapse accordion on hover
+$(document).ready(function() {
   
   $(".panel-default").hover(
    function() {
