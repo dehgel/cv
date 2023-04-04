@@ -8,6 +8,9 @@ span{
   color:#fff;
 }
 
+.right-align {
+  float:right;
+}
 #header.navigation{
   width:100%;
   display:block;
@@ -502,6 +505,26 @@ textarea#textarea-input.form-control{
 }
 .progress-bar-custom {
   width: 90%;
-    background: #68e0cf;
-    display: list-item;
+  background: #68e0cf;
+  display: list-item;
+}
+.social-media-icons {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 25%;
+}
+.social-media-icons i {
+
+      font-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+.social-media-icons a {
+  transition: .5s;
+  border-radius: 50%;
+}
+.social-media-icons a:hover {
+  transition: .5s;
+  background-color: #373b40!important;
 }
