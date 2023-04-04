@@ -528,3 +528,38 @@ textarea#textarea-input.form-control{
   transition: .5s;
   background-color: #373b40!important;
 }
+
+@media screen and (max-width: 672px) {
+
+div.overlay {
+
+width:15%;
+
+}
+
+div.wrapper {
+margin-left:15%;
+}
+h1 {
+font-size: 28px;
+}
+h1.cv-title {
+
+margin: 31px 0 0;
+    padding: 16px;
+font-size: 9.2vw;
+}
+h1.title {
+font-size: 2.2em;
+}
+p.summary {
+
+margin: 20px;
+}
+
+.custom-header {
+padding: 20px 0!important;
+width: 96%;
+}
+
+}
